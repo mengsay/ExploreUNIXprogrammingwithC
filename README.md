@@ -26,7 +26,15 @@
       
 3. Preemptive Multitask
 
-      Recent OS(including UNIX) has **preemptive multitask** function. 
+      Recent OS(including UNIX) has **preemptive multitask** function. Preemptive multitasking is an execution method that makes it appear that multiple programs are running at the same time. In preemptive multitasking, the OS uses the timer interrupt function of the CPU to switch processes anywhere in the program execution without blocking. 
+      
+4. System Call
+
+      [system call](https://g.co/kgs/JmKw8D)
+      
+      ![OS](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/sysytemcall.png)
+
+      
 
 ### 1.2 Shell
 

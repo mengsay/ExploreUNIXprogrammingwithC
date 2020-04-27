@@ -32,7 +32,7 @@
 
       [system call](https://g.co/kgs/JmKw8D)
       
-      ![OS](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/sysytemcall.png)
+      ![OS](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/systemcall.png)
 
       
 

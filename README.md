@@ -54,6 +54,7 @@ Shell is a core software of CUI(character user interface). It interprets and exe
 ![macOS:terminal(bash shell)](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/terminalscreen.png)
 
 _macOS terminal (bash shell)_
+
 ![macOS:finder(GUI:file manager)](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/finderscreen.png)
 
 _macOS Finder (file manager)

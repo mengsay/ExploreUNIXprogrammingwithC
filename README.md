@@ -75,8 +75,89 @@ e.g.2:(with option) to display a list of filenames with their information
 ```
 ![ls command](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/ls.png)
 
+#### Types of Commands
 
-### 1.3 Script Language
+* Internal commands of the shell (e.g. cd, pwd, etc.)
+* External commands(program) 
+  * machine language program (executable binary file)
+  * script file (text file. e.g. shell script, Ruby script)
+  
+#### Pipelins
+
+In shell, an output of a command can be used as an input of another command using **pipelining**.
+
+* Syntax:
+```
+% command1 | command2
+```
+e.g. Use the output of \[ls -l command(list of filenames)\] as input \[wc -l command(count line number)\]
+```
+% ls -l | wc -l
+```
+
+#### Shell Script: Example
+##### How to run?
+* Use "bash" command as an interpreter
+
+or
+
+* Use "chmod" command to make script file executable and use its filename as an external command
+
+sample1Script: 
+```
+# email.sh
+echo -n "Input your email : "
+read email
+echo "Application form has been sent to $email."
+```
+
+sample1Result①:
+```
+% bash email.sh
+Input your email : sample1@email1.com
+Application form has been sent to sample1@email1.com.
+%
+```
+sample1Result②:
+```
+% chmod +x email.sh
+% ./email.sh
+Input your email : sample1@email2.com
+Application form has been sent to sample1@email2.com.
+%
+```
+
+sample2Script: 
+```
+# loop
+echo -n "loop = "
+read loop
+i=1
+while (($i <= $loop))
+do
+  echo -n "loop#$i "
+  i=$(($i+1))
+done
+```
+
+sample2Result①:
+```
+% bash loop
+loop = 3
+loop#1 loop#2 loop#3
+%
+```
+sample2Result②:
+```
+% chmod +x loop
+% ./loop
+loop = 3
+loop#1 loop#2 loop#3
+%
+```
+
+
+
 
 ## References
 [\[1\]](https://www.amazon.co.jp/%E4%BE%8B%E8%A7%A3UNIX-Linux%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E6%95%99%E5%AE%A4-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%B3%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%BF%E3%81%84%E3%81%93%E3%81%AA%E3%81%99%E3%81%9F%E3%82%81%E3%81%AE12%E8%AC%9B-%E5%86%A8%E6%B0%B8%E5%92%8C%E4%BA%BA-ebook/dp/B07D38LMT4/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=unix%2Flinux&qid=1587973525&sr=8-4) Kazuto Tominaga. Illustrative UNIX / Linux programming class 12 lessons for mastering system calls (p.4)

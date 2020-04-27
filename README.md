@@ -30,7 +30,7 @@
       
 4. System Call
 
-      [system call](https://g.co/kgs/JmKw8D)
+      A [system call](https://g.co/kgs/JmKw8D) is used to interact with the kernel. (It is different between system call and library function.)
       
       ![OS](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/systemcall.png)
 

@@ -31,9 +31,8 @@
 4. System Call
 
       A [system call](https://g.co/kgs/JmKw8D) is used to interact with the kernel. (It is different between system call and library function.)
-      
-      ![OS](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/systemcall.png)
-
+ 
+      ![OS](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/systemcall.png)  
       
 #### **UNIX and Linux**[1]
 
@@ -54,7 +53,11 @@ Shell is a core software of CUI(character user interface). It interprets and exe
 
 ![macOS:terminal(bash shell)](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/terminalscreen.png)
 
+_macOS terminal (bash shell)_
 ![macOS:finder(GUI:file manager)](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/finderscreen.png)
+
+_macOS Finder (file manager)
+
 
 #### Command
 

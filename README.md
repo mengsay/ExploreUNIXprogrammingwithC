@@ -42,10 +42,23 @@
 * Linux + Application + Library = Linux distribution (e.g. Ubuntu)
 * Advantage of Linux : many of Linux distributions are free, source code is public
 
+#### **User Interface**
+
+On UNIX, there are two main user interfaces: window and shell.
+* window([GUI](https://www.geeksforgeeks.org/what-is-the-difference-between-gui-and-cui/))
+* shell([CUI](https://www.geeksforgeeks.org/what-is-the-difference-between-gui-and-cui/)): operate computer by [command](https://g.co/kgs/ip3zRh) input from keyboard
 
 ### 1.2 Shell
+
+Shell is a core software of CUI(character user interface). It interprets and executes user's input commands. It is also called command interpreter.
+
+![macOS:terminal(bash shell)](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/terminalscreen.png)
+
+![macOS:finder(GUI:file manager)](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/finderscreen.png)
+
+#### Command
 
 ### 1.3 Script Language
 
 ## References
-[1](https://www.amazon.co.jp/%E4%BE%8B%E8%A7%A3UNIX-Linux%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E6%95%99%E5%AE%A4-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%B3%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%BF%E3%81%84%E3%81%93%E3%81%AA%E3%81%99%E3%81%9F%E3%82%81%E3%81%AE12%E8%AC%9B-%E5%86%A8%E6%B0%B8%E5%92%8C%E4%BA%BA-ebook/dp/B07D38LMT4/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=unix%2Flinux&qid=1587973525&sr=8-4) 冨永和人. 例解UNIX/Linuxプログラミング教室 システムコールを使いこなすための12講(p.4)
+[\[1\]](https://www.amazon.co.jp/%E4%BE%8B%E8%A7%A3UNIX-Linux%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E6%95%99%E5%AE%A4-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%B3%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%BF%E3%81%84%E3%81%93%E3%81%AA%E3%81%99%E3%81%9F%E3%82%81%E3%81%AE12%E8%AC%9B-%E5%86%A8%E6%B0%B8%E5%92%8C%E4%BA%BA-ebook/dp/B07D38LMT4/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=unix%2Flinux&qid=1587973525&sr=8-4) 冨永和人. 例解UNIX/Linuxプログラミング教室 システムコールを使いこなすための12講(p.4)

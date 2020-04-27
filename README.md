@@ -1,5 +1,5 @@
-# ExploreUNIXwithC
-  ExploreUNIXwithC is prepared to introduce a basic technique in UNIX/Linux programming. We will go through examples and practices of the C programming language using some basic functions of UNIX. 
+# ExploreUNIXprogrammingwithC
+  ExploreUNIXprogrammingwithC is prepared to introduce a basic technique in UNIX/Linux programming. We will go through examples and practices of the C programming language using some basic functions of UNIX. 
 
 ## Day#1:WarmUp - Basic of UNIX
   In this section, we will introduce the fundamental concept of UNIX, Shell, and some easy examples of script program.

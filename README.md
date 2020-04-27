@@ -1,7 +1,7 @@
 # ExploreUNIXwithC
   ExploreUNIXwithC is prepared to introduce a basic technique in UNIX/Linux programming. We will go through examples and practices of C programming language using some basic functions of UNIX. 
 
-## Day#1:Basic of UNIX
+## Day#1:WarmUp - Basic of UNIX
   In this section we will introduce: fundermental concept of UNIX, Shell, and some easy example of Script Language.
 ### 1.1 What is UNIX/Linux?
   **UNIX** is an [_Operating System(OS)_](https://en.wikipedia.org/wiki/Operating_system) which derive from a original AT&T Unix developed in the 1970s at the Bell Labs research center. 
@@ -57,12 +57,26 @@ _macOS terminal (bash shell)_
 
 ![macOS:finder(GUI:file manager)](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/finderscreen.png)
 
-_macOS Finder (file manager)
-
+_macOS Finder (file manager)_
 
 #### Command
+
+* Syntax:
+```
+% command [-options][arguments]
+```
+e.g.1:(without option) to display a list of filenames
+```
+% ls 
+```
+e.g.2:(with option) to display a list of filenames with their information
+```
+% ls -l
+```
+![ls command](https://github.com/mengsay/ExploreUNIXwithC/blob/master/figures/day1/ls.png)
+
 
 ### 1.3 Script Language
 
 ## References
-[\[1\]](https://www.amazon.co.jp/%E4%BE%8B%E8%A7%A3UNIX-Linux%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E6%95%99%E5%AE%A4-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%B3%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%BF%E3%81%84%E3%81%93%E3%81%AA%E3%81%99%E3%81%9F%E3%82%81%E3%81%AE12%E8%AC%9B-%E5%86%A8%E6%B0%B8%E5%92%8C%E4%BA%BA-ebook/dp/B07D38LMT4/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=unix%2Flinux&qid=1587973525&sr=8-4) 冨永和人. 例解UNIX/Linuxプログラミング教室 システムコールを使いこなすための12講(p.4)
+[\[1\]](https://www.amazon.co.jp/%E4%BE%8B%E8%A7%A3UNIX-Linux%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E6%95%99%E5%AE%A4-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%B3%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%BF%E3%81%84%E3%81%93%E3%81%AA%E3%81%99%E3%81%9F%E3%82%81%E3%81%AE12%E8%AC%9B-%E5%86%A8%E6%B0%B8%E5%92%8C%E4%BA%BA-ebook/dp/B07D38LMT4/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=unix%2Flinux&qid=1587973525&sr=8-4) Kazuto Tominaga. Illustrative UNIX / Linux programming class 12 lessons for mastering system calls (p.4)

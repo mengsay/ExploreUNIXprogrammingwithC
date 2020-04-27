@@ -1,0 +1,9 @@
+# loop
+echo -n "loop = "
+read loop
+i=1
+while (($i <= $loop))
+do
+  echo -n "loop#$i "
+  i=$(($i+1))
+done
